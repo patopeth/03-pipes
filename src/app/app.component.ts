@@ -17,15 +17,22 @@ export class AppComponent {
   salario = 5000.3434;
 
   heroe = {
-    nombre : 'Logan',
-    clave : 'Wolverine',
-    edad : 500,
-    direccion : {
-      calle : 'Siempre viva',
-      casa : '19'
+    nombre: 'Logan',
+    clave: 'Wolverine',
+    edad: 500,
+    direccion: {
+      calle: 'Siempre viva',
+      casa: '19'
     }
   };
 
+  palabra = 'hola hijo de puta';
+  fecha = new Date();
+
+  valorPromesa = new Promise((resolve, reject) => {
+    setTimeout(() => resolve('llegó la data'), 3500);
+
+  });
 
   mierdacaca(): any {
     let caca = new Heroe('asdad', 2);

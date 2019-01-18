@@ -69,9 +69,44 @@
       <td>{{salario | currency:'EUR':true:'4.0-0'}}</td>
     </tr>
     <tr>
-      <td>{{salario}}</td>
+      <td>{{valor}}</td>
       <td>number</td>
       <td>{{salario | number:'1.0-3'}}</td>
+    </tr>
+    <tr>
+      <td>{{valorPromesa}}</td>
+      <td>async</td>
+      <td>{{valorPromesa | async}}</td>
+    </tr>
+    <tr>
+      <td>{{palabra}}</td>
+      <td>uppercase</td>
+      <td>{{palabra | uppercase}}</td>
+    </tr>
+    <tr>
+      <td>{{fecha}}</td>
+      <td>date</td>
+      <td>{{fecha | date:'medium'}}</td>
+    </tr>
+    <tr>
+      <td>{{fecha}}</td>
+      <td>date</td>
+      <td>{{fecha | date:'short'}}</td>
+    </tr>
+    <tr>
+      <td>{{fecha}}</td>
+      <td>date</td>
+      <td>{{fecha | date:'MMMM - dd'}}</td>
+    </tr>
+    <tr>
+      <td>{{palabra}}</td>
+      <td>pipe personalizado</td>
+      <td>{{palabra | capitalizado}}</td>
+    </tr>
+    <tr>
+      <td>{{palabra}}</td>
+      <td>pipe personalizado</td>
+      <td>{{palabra | capitalizado:false}}</td>
     </tr>
   </tbody>
 </table>
