@@ -28,6 +28,8 @@ export class AppComponent {
 
   palabra = 'hola hijo de puta';
   fecha = new Date();
+  video = 'Wul2yeGo3Wk';
+  activar = true;
 
   valorPromesa = new Promise((resolve, reject) => {
     setTimeout(() => resolve('llegó la data'), 3500);
